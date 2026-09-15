@@ -37,10 +37,10 @@ mvn test
 
 ## Tests
 
-`FileCheckTest` — tests that the file exists, can be read, and can be written to  
-`FullNameTest` — tests that names are sorted correctly and invalid names are rejected
+`FileCheckTest` - tests that the file exists, can be read, and can be written to  
+`FullNameTest` - tests that names are sorted correctly and invalid names are rejected
 
 ## Builds
 ![run](screenshots/builds.png)
 
-Latest Build: https://ci.appveyor.com/project/vjanu/name-sorter/builds/54728912
+Latest Build: https://ci.appveyor.com/project/vjanu/name-sorter/builds/54728930
