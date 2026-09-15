@@ -25,10 +25,10 @@ mvn test
 
 | Class | What it does |
 |---|---|
-| `FullName` | Holds a name (last + given). Parses a line then validates and prints  |
-| `LastNameSorter` | Sorts a list of names by last name, then given names |
-| `NameFiles` | Reads and writes the name list files |
-| `NameSorter` | Entry point |
+| `FullName.java` | Holds a name (last + given). Parses a line then validates and prints  |
+| `LastNameSorter.java` | Sorts a list of names by last name, then given names |
+| `NameFiles.java` | Reads and writes the name list files |
+| `NameSorte.java` | Entry point |
 
 ## Design
 
@@ -37,10 +37,10 @@ mvn test
 
 ## Tests
 
-`FileCheckTest` - tests that the file exists, can be read, and can be written to  
-`FullNameTest` - tests that names are sorted correctly and invalid names are rejected
+`FileCheckTest.java` - tests that the file exists, can be read, and can be written to  
+`FullNameTest.java` - tests that names are sorted correctly and invalid names are rejected
 
 ## Builds
 ![run](screenshots/builds.png)
 
-Latest Build: https://ci.appveyor.com/project/vjanu/name-sorter/builds/54728930
+Latest Build: https://ci.appveyor.com/project/vjanu/name-sorter/builds/54728945
