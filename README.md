@@ -10,14 +10,16 @@ Build pipeline: https://ci.appveyor.com/project/vjanu/name-sorter
 ```shell
 ./name-sorter ./unsorted-names-list.txt
 ```
-
 Prints sorted names and writes `sorted-names-list.txt`.
+
+![run](screenshots/exec.png)
 
 ## Test
 
 ```shell
 mvn test
 ```
+![run](screenshots/tests.png)
 
 ## Classes
 
@@ -39,4 +41,6 @@ mvn test
 `FullNameTest` — tests that names are sorted correctly and invalid names are rejected
 
 ## Builds
+![run](screenshots/builds.png)
 
+Latest Build: https://ci.appveyor.com/project/vjanu/name-sorter/builds/54728912
